@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sp01-commons:war">
+    <output-path>$PROJECT_DIR$/sp01-commons/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sp01-commons</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sp01-commons.war">
+      <element id="artifact" artifact-name="sp01-commons:war exploded" />
+    </root>
+  </artifact>
+</component>
