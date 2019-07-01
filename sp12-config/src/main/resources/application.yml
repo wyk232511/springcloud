@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wyk232511/spingcloud
+          uri: https://github.com/wyk232511/springcloud
           searchPaths: sp-config
           #username: your-username
           #password: your-password
