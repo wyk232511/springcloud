@@ -10,7 +10,11 @@ spring:
           searchPaths: sp-config
           #username: your-username
           #password: your-password
-
+  rabbitmq:
+    host: 192.168.244.132
+    port: 5672
+    username: admin
+    password: admin
 server:
   port: 6001
 
@@ -18,3 +22,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
