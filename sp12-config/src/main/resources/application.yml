@@ -10,6 +10,12 @@ spring:
           searchPaths: sp-config
           #username: your-username
           #password: your-password
+#        native:
+#          search-locations: classpath:/config
+
+
+
+
   rabbitmq:
     host: 192.168.244.132
     port: 5672
