@@ -21,8 +21,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream      
-      
+        include: refresh #hystrix.stream
+
       
       
 ---
